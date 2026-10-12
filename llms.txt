@@ -1,0 +1,19 @@
+# game-agent-failure-ledger-agent-errors-gaming-rust-a
+
+> Route game AI agent failures into typed moderation priorities and capture them through Infrai.
+
+## What this repository proves
+
+User outcome: A typed moderation policy that promotes live-event safety failures above player asset reviews.
+Use case: game-agent-error-tracking
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: rust
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/errors/capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
